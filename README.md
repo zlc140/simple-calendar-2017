@@ -31,9 +31,17 @@
       showLunarFestival: true, //农历节日
       showSolarTerm: true, //节气
       showMark: true, //标记
+      showMore:true,//是否显示更多
+      maxLength:5,//可选的最大长度
+      showRange:true,//是否添加时间范围
+      selectDays:[],//选中的天
       timeRange: {
         startYear: 1900,
         endYear: 2049
+      },
+       timeBanRange:{//设置时间段（不在范围的禁用）
+      	startTime:'2017-4-18',
+      	endTime:'2017-5-20'
       },
       mark: {
         '2016-5-5': '上学'
