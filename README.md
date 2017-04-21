@@ -153,5 +153,6 @@ showMark(false)
 ```
 
 ####参考
+>原来的插件没有多选、默认、时间段
 http://www.jq22.com/yanshi9256
 
