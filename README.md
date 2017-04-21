@@ -1,4 +1,5 @@
 # simple-calendar-2017
+
 多功能日历插件（多选单选、设置时段、标记时间）适配手机端
 
 
@@ -19,7 +20,7 @@
  ```
 >这样一个日历就诞生了 ^-^
 
-# 配置项说明
+#[配置项说明]
 ```
  var options = {
      width: '500px',
@@ -150,3 +151,7 @@ showLunarFestival(false);
 //关闭或者显示标记
 showMark(false)
 ```
+
+####参考
+http://www.jq22.com/yanshi9256
+
