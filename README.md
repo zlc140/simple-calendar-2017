@@ -19,7 +19,8 @@
  ```
 >这样一个日历就诞生了 ^-^
 
-> 配置项说明
+# 配置项说明
+```
 * var options = {
 *     width: '500px',
       height: '500px',
@@ -53,12 +54,14 @@
         activeSelectColor: 'orange',
       }
     }
- 国际化
-language： 语言的话目前只支持中文和英文，分别对应'CH','EN'
+    ```
+# 国际化
+>language： 语言的话目前只支持中文和英文，分别对应'CH','EN'
 
-如果想要加更多的语言或者更改现在的显示，可以直接更改languageData内容
-```
+>如果想要加更多的语言或者更改现在的显示，可以直接更改languageData内容
+
  节日显示配置
+ ```
 showLunarCalendar: true, //是否显示阴历日期
 showHoliday: true,       //是否显示休假休假
 showFestival: true,      //是否显示国际节日
@@ -123,8 +126,9 @@ myCalendar.showMark(false);
 
 > setLenguage(languageStr)
 >设置语言，目前支持的语言有'CH','EN' 如果想要增加语言，请在languageData中修改
-```
+
 # 其他
+```
 //关闭或者显示国际节日
 showFestival(false);
 //关闭或者显示阴历日期
