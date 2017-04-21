@@ -21,8 +21,8 @@
 
 # 配置项说明
 ```
-* var options = {
-*     width: '500px',
+ var options = {
+     width: '500px',
       height: '500px',
       language: 'CH', //语言
       showLunarCalendar: true, //阴历
@@ -54,13 +54,13 @@
         activeSelectColor: 'orange',
       }
     }
-    ```
+```
 # 国际化
 >language： 语言的话目前只支持中文和英文，分别对应'CH','EN'
 
 >如果想要加更多的语言或者更改现在的显示，可以直接更改languageData内容
 
- 节日显示配置
+# 节日显示配置
  ```
 showLunarCalendar: true, //是否显示阴历日期
 showHoliday: true,       //是否显示休假休假
@@ -104,7 +104,7 @@ mark: {
         activeSelectColor: 'orange',
       }
    ```
-主题配置只有在changeAble 为 true 时才会生效 weeks 设置的是星期一栏的主题，分别对应背景颜色，字体颜色，字体大小 days 设置的是日期的主题，参数同上 todaycolor 设置的是当天的日期背景颜色 activeSelectColor 设置的是鼠标滑过事件对应日期的边框颜色
+>主题配置只有在changeAble 为 true 时才会生效 weeks 设置的是星期一栏的主题，分别对应背景颜色，字体颜色，字体大小 days 设置的是日期的主题，参数同上 todaycolor 设置的是当天的日期背景颜色 activeSelectColor 设置的是鼠标滑过事件对应日期的边框颜色
 
 # 事件接口说明
 ```
