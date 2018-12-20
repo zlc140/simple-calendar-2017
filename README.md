@@ -1,4 +1,4 @@
-# simple-calendar-2017
+﻿# simple-calendar-2017 （test）
 
 多功能日历插件（多选单选、设置时段、标记时间）适配手机端
 
